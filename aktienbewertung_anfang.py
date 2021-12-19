@@ -6,6 +6,7 @@ import yfinance, json, openpyxl
 symbols = ['MSF.DE', 'AMD.DE', 'APC.DE', 'RWE.DE']
 stock_data = {}
 
+
 for symbol in symbols:
   print(f'Daten für {symbol} werden abgefragt...')
   stock = yfinance.Ticker(symbol)
