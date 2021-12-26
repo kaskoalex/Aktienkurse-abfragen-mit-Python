@@ -40,5 +40,6 @@ jinja_var = {
     }]
 }
 
-template = jinja_env.get_template('akt.html')
+template = jinja_env.get_template('name_data.html')
 print(template.render(jinja_var))
+

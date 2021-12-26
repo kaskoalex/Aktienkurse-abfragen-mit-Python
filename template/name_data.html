@@ -5,12 +5,13 @@
     <title>Title</title>
 </head>
 <body>
-
+<table>
 <ul>
 {% for employe in employes %}
-<li>{{employe.name}}: {{employe.data}}</li>
+<li><h2>{{employe.name}}</h2>: {{employe.data}}</li>
 {% endfor %}
 </ul>
+</table>
 
 </body>
 </html>
